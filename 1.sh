@@ -1,6 +1,5 @@
-for i in $(seq 7);
-do
-echo -e "\e[1;3"$i"m [Warning! ]: Reg code with Y/yes only \e[1m";
+
+echo "Warning! Reg code with Y/yes only";
 sleep 1
 clear
 
